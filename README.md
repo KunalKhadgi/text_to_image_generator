@@ -84,11 +84,7 @@ python img_gen.py
 
 ---
 
-## 🤝 Contributing
-Feel free to fork, modify, and submit pull requests!
-
----
 
 ## 📜 License
-This project is open-source under the MIT License.
+This project is open-source under the Appache License.
 
