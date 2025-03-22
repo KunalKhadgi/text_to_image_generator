@@ -16,18 +16,18 @@ This project is a **Stable Diffusion-based text-to-image generator** with a **St
 ---
 
 ## 🚀 Installation
-### **1️⃣ Clone the Repository**
+### **1️ Clone the Repository**
 ```bash
 git clone https://github.com/your-repo/text-to-image-generator.git
 cd text-to-image-generator
 ```
 
-### **2️⃣ Install Dependencies**
+### **2️ Install Dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Run the Backend & Frontend**
+### **3️ Run the Backend & Frontend**
 #### **Run Streamlit Frontend**
 ```bash
 streamlit run frontend.py
@@ -40,7 +40,7 @@ python img_gen.py
 
 ---
 
-## 🛠 Usage
+##  Usage
 1. **Enter a text prompt** in the Streamlit UI.
 2. **Adjust the number of inference steps** (default: 20, lower for speed, higher for quality).
 3. **Adjust the guidance scale** (default: 7.5, lower for diversity, higher for accuracy).
@@ -49,7 +49,7 @@ python img_gen.py
 
 ---
 
-## ⚙️ Configuration & Optimization
+## ⚙ Configuration & Optimization
 ### **Change Execution Mode (GPU vs CPU)**
 - The script **automatically detects GPU availability**.
 - To force CPU execution (if GPU is slow):
@@ -66,7 +66,7 @@ python img_gen.py
 
 ---
 
-## 📜 Requirements
+##  Requirements
 - **Python 3.8+**
 - **NVIDIA GPU with CUDA (Recommended)**
 - **Minimum 8GB RAM (16GB Recommended for CPU mode)**
@@ -74,7 +74,7 @@ python img_gen.py
 
 ---
 
-## 🛠 Troubleshooting
+##  Troubleshooting
 | **Issue** > **Solution** |
 |-----------|-------------|
 | Slow generation (10+ min) > Reduce `num_steps` to 10-15, use `CompVis/stable-diffusion-v1-4` |
@@ -85,6 +85,6 @@ python img_gen.py
 ---
 
 
-## 📜 License
+##  License
 This project is open-source under the Appache License.
 
